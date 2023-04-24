@@ -1,19 +1,19 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector, useDispatch } from 'react-redux';
 
-import { counterActions } from "../store/index";
-import classes from "./Counter.module.css";
+import { counterActions } from '../store/counterSlice';
+import classes from './Counter.module.css';
 
 const Counter = () => {
   const dispatch = useDispatch();
-  const counter = useSelector((state) => state.counter);
-  const show = useSelector((state) => state.showCounter);
+  const counter = useSelector((state) => state.counter.counter);
+  const show = useSelector((state) => state.counter.showCounter);
 
   const incrementHandler = () => {
-    dispatch(counterActions.increase());
+    dispatch(counterActions.increment());
   };
 
   const increaseHandler = () => {
-    dispatch(counterActions.increase(10));
+    dispatch(counterActions.increase(10)); // { type: SOME_UNIQUE_IDENTIFIER, payload: 10 }
   };
 
   const decrementHandler = () => {
