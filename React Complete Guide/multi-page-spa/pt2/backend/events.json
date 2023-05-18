@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"Vin Diesel is coming","image":"https://static01.nyt.com/images/2017/04/07/fashion/07COVER/07COVER-videoSixteenByNineJumbo1600.jpg","date":"2023-06-02","description":"He will arrive shortly.","id":"ce0ba696-5d01-46a7-9d8f-dbaf1bdeaa1a"},{"title":"Dwayne Johnson is coming","image":"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2021%2F11%2F04%2FGettyImages-1236337261.jpg","date":"2023-05-19","description":"Run. HELP. HELP ME.","id":"ea30c216-a1c8-4b6f-976e-554c62a2b4c4"}]}
